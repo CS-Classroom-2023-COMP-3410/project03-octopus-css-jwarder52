@@ -51,9 +51,16 @@ h2 {
     padding-bottom: 5px;
     margin-bottom: 15px;
     color: #0066a4;
-    border-bottom: 2px solid #3488cc;
-    display:inline;
+    /* border-bottom: 2px solid #3488cc; */
+    display:table;
 }
+h2:after {
+    border-bottom: 2px solid #3488cc;
+    content: '';
+    display: block;
+    margin-right: 80%;
+    margin-top: 5%
+  }
 
 h3, h4, h5, h6 {
     color: #0066a4;
