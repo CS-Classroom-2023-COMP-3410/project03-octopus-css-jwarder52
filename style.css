@@ -62,7 +62,15 @@ h2:after {
     margin-top: 5%
   }
 
-h3, h4, h5, h6 {
+h3 {
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    color: #0066a4;
+    /* border-bottom: 2px solid #3488cc; */
+    display:table;
+}
+
+h4, h5, h6 {
     color: #0066a4;
     margin-top: 20px;
 }
